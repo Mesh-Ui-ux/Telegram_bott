@@ -1,0 +1,13 @@
+services:
+  - type: worker
+    name: telegram-bott
+    runtime: python
+    repo: https://github.com/Mesh-Ui-ux/telegram-bott
+    branch: main
+    envVars:
+      - key: BOT_TOKEN
+        value: 7757546183:AAFXh_8val5uZolR4dyNejbRDvP6srWJRxo
+      - key: CHAT_ID
+        value: 7214608875
+    buildCommand: ""
+    startCommand: python main.py
