@@ -9,5 +9,5 @@ services:
         value: 7757546183:AAFXh_8val5uZolR4dyNejbRDvP6srWJRxo
       - key: CHAT_ID
         value: 7214608875
-    buildCommand: ""
+    buildCommand: echo "No build needed"
     startCommand: python main.py
